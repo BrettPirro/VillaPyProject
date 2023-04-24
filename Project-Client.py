@@ -19,25 +19,6 @@
 
 # A Tanner Balk, Brett Pirro, and Madeline Bell Project
 
-#TO-DO
-# Make game grid, game grid needs to hold puyos, thinking 8x15 (120) tiles on grid 
-# 
-#
-#
-
-
-#project notes 4/15/23-Brett
-#~~~~Delete this on finalization of project~~~~~
-#-All code is commented and organized into a readable state
-#-added functions for saving scores and reading scores from a json; not implemented into function
-#Whatever is not done by the 16th im just gonna do myself after score rendering im not adding anything else im calling it finished there. I'm to exhausted and busy to add anything major 
-
-
-
-
-
-
-
 
 import pygame
 import random
@@ -516,7 +497,7 @@ def main():
 
 
     #instanitated the game state enum to determine what needs to be rendered
-    GameState=state(state.YouLose)
+    GameState=state(state.Menu)
 
     run = True
     # Used to manage how fast the screen updates
